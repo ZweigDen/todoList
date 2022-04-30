@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "df7c8ab9-940c-4fc7-ac69-593eed47e9fb",
+		"name": "week1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "取得所有代辦",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://infinite-river-04153.herokuapp.com/",
+					"protocol": "https",
+					"host": [
+						"infinite-river-04153",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "新增代辦",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"呼嚕最可愛我最愛3\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://infinite-river-04153.herokuapp.com/todos",
+					"protocol": "https",
+					"host": [
+						"infinite-river-04153",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "刪除所有代辦事項",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://infinite-river-04153.herokuapp.com/todos",
+					"protocol": "https",
+					"host": [
+						"infinite-river-04153",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "刪除單筆代辦事項",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://infinite-river-04153.herokuapp.com/",
+					"protocol": "https",
+					"host": [
+						"infinite-river-04153",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "修改",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"jojojo\"\n}"
+				},
+				"url": {
+					"raw": "https://infinite-river-04153.herokuapp.com/",
+					"protocol": "https",
+					"host": [
+						"infinite-river-04153",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
